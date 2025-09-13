@@ -1,0 +1,15 @@
+header {
+    background-color: #840b4d;
+    color : white;
+    padding: 20px; 
+        }
+button {
+    border: none;
+     outline: 2px solidpurple;
+    color: purple;
+    background-color: transparent;
+
+        }
+ul > li{
+    colour:white;
+}

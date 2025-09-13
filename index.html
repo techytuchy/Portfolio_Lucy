@@ -4,39 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=  , initial-scale=1.0">
     <title>TechyTuchy's Portfolio</title>
+    <link rel="icon" href="images/techytuchy logo png.png">
+    <link href="./styles/index.css" rel="stylesheet" />
+    <style>
+        header {
+            background-color: blueviolet;
+            color : white; 
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>TechyTuchy's Portfolio</h1>
-        <p>Lucy is a mechanical design engineer, a budding robotics enginner and overall a tech enthusiast.</p>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="aboutme">About me</a></li>
+            <li><a href="projects">My Projects</a></li>
+            <li><a href="contact">Contact Me</a></li>
+        </ul>
+        
     </header>
     <main>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h2 style="background-color: red;"> About me</h2>
-        <img  src=""  alt="Profile picture"   />
-        <div>
-            <a href="google.com" style="background-color: blue; color: white">google</a>
+        <hr/>
         
+        <h2 style="background-color: rgb(29, 192, 237);"> About me</h2>
+        <p>Lucy is a mechanical design engineer, a budding robotics enginner and overall a tech enthusiast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis recusandae saepe illo, esse veniam, nostrum autem natus excepturi delectus praesentium cupiditate labore pariatur in voluptatibus doloremque minus hic? Quidem.
+        </p>
+        <img  src="images/Profile picture.jpg"  alt="Profile picture"  />
+            <a href="google.com" style="background-color: blue; color: white">google</a>
+
+        <article id="#contact">
+            <h2>Contact Me</h2>
+            <p> <em>I'd really like to hear from you</em></p>
+
+            <form action="https://httpbin.org/get" method="get">
+               <p> <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" 
+                id="firstName" placeholder="Lucy"
+                autocomplete="on">
+            </p>
+            <p>
+                    <label for="lastName">First Name:</label>
+                <input type="text" name="lastName" 
+                id="lastName" placeholder="Ogbejesi" 
+                autocomplete="on" required>
+            </p>
+            <p>
+                    <label for="Phone">Phone:</label>
+                <input type="tel" name="Phone" 
+                id="Phone" placeholder=""
+                autocomplete="on">
+            </p>
+            </form>
+        </article>
     </main>
     <footer>
+        <h3>Social Media</h3>
+       <img src="images/facebook logo.png" alt="My Facebook Page"> 
+       <img src="images/instagram logo.png" alt="My Instagram Page">
+       <img src="images/twitter logo.png" alt="My Twitter Page">
         <p>
             <small>Copyright@TechyTuchy 2025</small>
-        </p>
-
-        <p>
-            Some states in Nigeria
-            <ul> 
-                <li>Abia</li>
-                <li>Lagos</li>
-                <ul>
-                    <li>Festac</li>
-                    <li>Alimosho</li>
-                </ul>
-            </ul>
-                
         </p>
     </footer>
 </body>
